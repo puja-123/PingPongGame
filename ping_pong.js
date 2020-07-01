@@ -61,7 +61,7 @@ function restartGame(player) {
     {
         player = "player1";
         maxScore = 0;
-        alert(`It is first time ... let the game begin`);
+        alert(`It's your first time ... Press enter to start the game`);
         
     }
     else
