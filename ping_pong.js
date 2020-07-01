@@ -61,7 +61,7 @@ function restartGame(player) {
     {
         player = "player1";
         maxScore = 0;
-        alert(`It's your first time ... Press enter to start the game`);
+        alert(`It's your first time ...Bars control : Press "a" to move left && Press "d" to move right .... Press enter to start the game `);
         
     }
     else
