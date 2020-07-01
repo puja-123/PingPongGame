@@ -1,0 +1,49 @@
+
+body{
+	background-color: lightgray;
+	margin: 0;
+}
+header
+{
+	height: 10vh;
+	width: 100vw;
+	position: fixed;
+	border-bottom: 2px solid black;
+
+}
+header span
+{
+	margin-left: 35%; 
+	font-size: 4rem;
+	font-weight: 700;
+	color: red;
+}
+#ball{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: red;
+	position: fixed;
+	top: 50px;
+	left: 50%;
+}
+#player1,#player2
+{
+	height: 50px;
+	width: 150px;
+	color: white;
+	position: fixed;
+	text-align: center;
+	font-size: 1.5rem;
+	left: 50%;
+	border-radius: 10px;
+}
+#player1{
+	background-color: white;
+	color:black;
+	top: 10.4vh;
+}
+#player2{
+	background-color: black;
+	bottom: 0px;
+}
